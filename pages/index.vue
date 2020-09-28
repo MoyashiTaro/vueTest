@@ -32,8 +32,8 @@
 </template>
 
 <script>
-// import {createClient} from '~/plugins/contentful.js'
-// const client = createClient()
+import {createClient} from '~/plugins/contentful.js'
+const client = createClient()
 export default {}
 </script>
 
