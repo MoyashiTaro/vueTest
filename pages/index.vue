@@ -26,7 +26,7 @@
     </div>
   </div>
 
-  <h1>{{ hoge.feilds.name }}</h1>
+  // <h1>{{ hoge.feilds.name }}</h1>
   <h1>unko</h1>
 
 </template>
