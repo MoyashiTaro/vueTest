@@ -26,14 +26,14 @@
     </div>
   </div>
 
-  // <h1>{{ hoge.feilds.name }}</h1>
+  <h1>{{ hoge.feilds.name }}</h1>
   <h1>unko</h1>
 
 </template>
 
 <script>
-import {createClient} from '~/plugins/contentful.js'
-const client = createClient()
+// import {createClient} from '~/plugins/contentful.js'
+// const client = createClient()
 export default {}
 </script>
 
