@@ -25,6 +25,9 @@
       </div>
     </div>
   </div>
+
+  <h1>{{ hoge.feilds.name }}</h1>
+
 </template>
 
 <script>
