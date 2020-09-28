@@ -24,7 +24,6 @@
         </a>
       </div>
     </div>
-    <h1>{{ hoge.feilds.txt }}</h1>
     <h1>unko</h1>
   </div>
 
