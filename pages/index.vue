@@ -36,12 +36,12 @@ import {createClient} from '~/plugins/contentful.js'
 
 const client = createClient()
 
-client.getEntries({
-  content_type: "hoge"
-}).then(entries => {
-  console.log(entries.items);
-});
 export default {
+  client.getEntries({
+    content_type: "hoge"
+  }).then(entries => {
+    console.log(entries.items);
+  });
 }
 </script>
 
