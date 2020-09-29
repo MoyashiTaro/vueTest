@@ -31,9 +31,17 @@
 </template>
 
 <script>
-// import {createClient} from '~/plugins/contentful.js'
-// const client = createClient()
-export default {}
+import {createClient} from '~/plugins/contentful.js'
+
+const client = createClient()
+
+export default {
+  client.getEntries({
+    content_type: "vueTestSpace"
+  }).then(entries => {
+    console.log(entries.items);
+  });
+}
 </script>
 
 <style>
