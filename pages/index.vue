@@ -38,7 +38,7 @@ const client = createClient()
 
 export default {
   client.getEntries({
-    content_type: "vueTestSpace"
+    content_type: "hoge"
   }).then(entries => {
     console.log(entries.items);
   });
