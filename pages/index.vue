@@ -25,7 +25,6 @@
       </div>
     </div>
     <h1>unko</h1>
-    <h1>{{ hoge.fields.txt[0] }}</h1>
   </div>
 
 
