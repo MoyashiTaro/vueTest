@@ -25,6 +25,7 @@
       </div>
     </div>
     <h1>unko</h1>
+    <h1>{{ hoge.fields.txt[0] }}</h1>
   </div>
 
 
@@ -40,7 +41,7 @@ export default {
     content_type: "hoge"
   }).then(entries => {
     console.log(entries.items);
-  }).catch(console.error);
+  });
 }
 </script>
 
