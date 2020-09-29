@@ -42,7 +42,7 @@ export default {
     content_type: "hoge"
   }).then(entries => {
     console.log(entries.items);
-  });
+  }).catch(console.error)
   }
 }
 </script>
