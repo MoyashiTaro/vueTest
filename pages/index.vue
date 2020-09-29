@@ -37,11 +37,13 @@ import {createClient} from '~/plugins/contentful.js'
 const client = createClient()
 
 export default {
+  async asyncData({ env }) {
   client.getEntries({
     content_type: "hoge"
   }).then(entries => {
     console.log(entries.items);
   });
+  }
 }
 </script>
 
