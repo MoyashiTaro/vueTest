@@ -41,8 +41,8 @@ export default {
   client.getEntries({
     content_type: "hoge"
   }).then(entries => {
-    console.log(entries.items);
-  }).catch(console.error)
+    return { hoge: entries.items[0] }
+  ).catch(console.error)
   }
 }
 </script>
