@@ -15,6 +15,7 @@
     return await client
     .getEntries({ content_type: "hoge" })
     .then(entries => { return entries.items });
+  };
   }
 </script>
 
