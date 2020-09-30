@@ -10,9 +10,10 @@
 
   const client = createClient();
 
+
   export default {
-    const {hoge} = client.getEntries({ content_type: "hoge" })
-    .then(entries => { return {hoge} });
+    client.getEntries({ content_type: "hoge" })
+    .then(entries => { return hoge: entries.items });
   }
 </script>
 
