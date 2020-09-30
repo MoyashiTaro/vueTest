@@ -12,8 +12,8 @@
 
   export default {
     async asyncData({ env }) {
-      client.getEntries({ content_type: "hoge" })
-      .then(entries => { console.log(entry.fields.txt) })
+      const {hoge} = client.getEntries({ content_type: "hoge" })
+      .then(entries => { return {hoge} })
       .catch(console.error)
     }
   }
