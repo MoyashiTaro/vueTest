@@ -11,7 +11,9 @@
   const client = createClient();
 
   export default {
-    client.getEntries({ content_type: "hoge" })
+    async asyncData({ env, params }) {
+    return await client
+    .getEntries({ content_type: "hoge" })
     .then(entries => { return entries.items });
   }
 </script>
