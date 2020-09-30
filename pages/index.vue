@@ -6,15 +6,14 @@
 </template>
 
 <script>
-  import { createClient } from '~/plugins/contentful.js'
+  import { createClient } from '~/plugins/contentful.js';
 
-  const client = createClient()
+  const client = createClient();
 
   export default {
     async asyncData({ env }) {
       const {hoge} = client.getEntries({ content_type: "hoge" })
-      .then(entries => { return {hoge} })
-      .catch(console.error)
+      .then(entries => { return {hoge} });
     }
   }
 </script>
